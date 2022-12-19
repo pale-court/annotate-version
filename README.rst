@@ -12,3 +12,5 @@ This tool preferably runs as a periodic systemd timer to poll whether any new
 unversioned releases may have appeared. Depending on the ingestion speed of
 data processing there may be a delay between when a new release appears in
 changeapi and the time an executable is actually available to be processed.
+
+System tools required: ``cat``, ``grep``, ``strings``, ``zstdcat``
